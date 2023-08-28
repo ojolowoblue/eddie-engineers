@@ -56,7 +56,7 @@ export default function Home() {
               Our Service
             </h1>
 
-            <div className="flex items-center">
+            <div className="flex items-center gap-[3px]">
               <>
                 <ChevronLeft className="mobile:hidden" />
                 <ChevronLeftSmall className="hidden mobile:block" />

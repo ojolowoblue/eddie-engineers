@@ -13,7 +13,7 @@ import { links } from "../utils";
 export default function Header() {
   return (
     <>
-      <header className="h-[62px] flex items-center justify-between bg-dark tablet:hidden">
+      <header className="h-[62px] flex items-center justify-between bg-dark smDesktop:hidden">
         <Logo />
 
         <Links>

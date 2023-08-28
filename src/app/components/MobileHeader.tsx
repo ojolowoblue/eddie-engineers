@@ -29,7 +29,7 @@ export default function MobileHeader() {
 
   return (
     <div>
-      <header className="hidden h-[62px] w-full tablet:flex items-center justify-between bg-dark">
+      <header className="hidden h-[62px] w-full smDesktop:flex items-center justify-between bg-dark">
         <Logo />
 
         <div className="flex items-center gap-[14px]">
