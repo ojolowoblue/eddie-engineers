@@ -6,6 +6,7 @@ import Instagram from "@/app/assets/svg/instagram.svg";
 import Twitter from "@/app/assets/svg/twitter.svg";
 import LinkedIn from "@/app/assets/svg/linkedin.svg";
 import Tiktok from "@/app/assets/svg/tiktok.svg";
+import Copyright from "@/app/assets/svg/copyright.svg";
 
 import { companyLinks, serviceLinks } from "../utils";
 
@@ -67,8 +68,9 @@ export default function Footer() {
 
       <hr className="border mx-[2.5%] mt-[73px] border-[#9F9F9F]" />
 
-      <h2 className="font-bold text-[2.2rem] text-white text-center mt-[50px] mobile:text-[1.3rem]">
-        2023 EDDIE ENGINEER | POWERED BY POWERSHOP.LINK
+      <h2 className="font-bold text-[2.2rem] flex gap-2 items-center justify-center text-white text-center mt-[50px] mobile:text-[1.3rem]">
+        <Copyright />
+        <span>2023 EDDIE ENGINEER | POWERED BY POWERSHOP.LINK</span>
       </h2>
     </footer>
   );
