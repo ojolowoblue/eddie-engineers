@@ -10,6 +10,8 @@ const config: Config = {
     extend: {
       colors: {
         dark: "#000",
+        dark05: "#050505",
+        transparentDark: "rgba(0,0,0,0.3)",
         prime: "#FFB612",
         grey98: "#989898",
         grey33: "#333333",
