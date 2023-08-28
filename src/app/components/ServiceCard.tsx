@@ -2,6 +2,7 @@ import * as React from "react";
 import Image, { StaticImageData } from "next/image";
 
 import ArrowRightIcon from "@/app/assets/svg/arrow-right.svg";
+import ArrowRightBigIcon from "@/app/assets/svg/arrow-right-big.svg";
 
 import Button from "./Button";
 
@@ -29,7 +30,12 @@ export default function ServiceCard(props: Props) {
       </div>
 
       <Button
-        icon={<ArrowRightIcon />}
+        icon={
+          <>
+            <ArrowRightIcon className="hidden mobile:block" />
+            <ArrowRightBigIcon className="mobile:hidden" />
+          </>
+        }
         text="Check our service"
         className="h-[95px] mobile:h-[61px] mobile:text-[1.3rem] w-full mobile:rounded-[15px] text-[2.3rem] font-[900] rounded-[20px] px-[37px]"
       />

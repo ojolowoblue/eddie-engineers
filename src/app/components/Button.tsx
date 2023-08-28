@@ -4,6 +4,7 @@ import * as React from "react";
 import styled from "@emotion/styled";
 
 import ArrowDown from "@/app/assets/svg/arrow-down.svg";
+import ArrowDownBig from "@/app/assets/svg/arrow-down-big.svg";
 
 interface Props extends React.HTMLAttributes<HTMLButtonElement> {
   icon?: React.ReactNode;
@@ -19,7 +20,12 @@ export default function Button(props: Props) {
         {text ?? children}
       </span>
 
-      {icon ?? <ArrowDown />}
+      {icon ?? (
+        <>
+          <ArrowDown className="hidden mobile:block" />
+          <ArrowDownBig className="mobile:hidden" />
+        </>
+      )}
     </ButtonEl>
   );
 }

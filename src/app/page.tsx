@@ -4,7 +4,9 @@ import Image from "next/image";
 import HeroImage from "@/app/assets/images/hero-image.png";
 import HeroImageMobile from "@/app/assets/images/here-image-mobile.png";
 import ChevronLeft from "@/app/assets/svg/swipe-left.svg";
+import ChevronLeftSmall from "@/app/assets/svg/swipe-left-small.svg";
 import ChevronRight from "@/app/assets/svg/swipe-right.svg";
+import ChevronRightSmall from "@/app/assets/svg/swipe-right-small.svg";
 
 import Header from "./components/Header";
 import Button from "./components/Button";
@@ -55,8 +57,14 @@ export default function Home() {
             </h1>
 
             <div className="flex items-center">
-              <ChevronLeft />
-              <ChevronRight />
+              <>
+                <ChevronLeft className="mobile:hidden" />
+                <ChevronLeftSmall className="hidden mobile:block" />
+              </>
+              <>
+                <ChevronRight className="mobile:hidden" />
+                <ChevronRightSmall className="hidden mobile:block" />
+              </>
             </div>
           </div>
 
