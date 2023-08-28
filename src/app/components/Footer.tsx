@@ -1,7 +1,7 @@
 import * as React from "react";
 import Link from "next/link";
 
-import Logo from "@/app/assets/svg/Logo.svg";
+import Logo from "@/app/assets/svg/logo.svg";
 import Instagram from "@/app/assets/svg/instagram.svg";
 import Twitter from "@/app/assets/svg/twitter.svg";
 import LinkedIn from "@/app/assets/svg/linkedin.svg";
