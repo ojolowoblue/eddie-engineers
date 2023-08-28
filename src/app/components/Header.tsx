@@ -4,7 +4,7 @@ import * as React from "react";
 import Link from "next/link";
 import styled from "@emotion/styled";
 
-import Logo from "@/app/assets/svg/Logo.svg";
+import Logo from "@/app/assets/svg/logo.svg";
 
 import SearchBox from "./SearchBox";
 import MobileHeader from "./MobileHeader";
