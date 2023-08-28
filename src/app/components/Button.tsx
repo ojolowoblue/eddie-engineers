@@ -22,8 +22,8 @@ export default function Button(props: Props) {
 
       {icon ?? (
         <>
-          <ArrowDown className="hidden mobile:block" />
-          <ArrowDownBig className="mobile:hidden" />
+          <ArrowDown className="hidden tablet:block" />
+          <ArrowDownBig className="tablet:hidden" />
         </>
       )}
     </ButtonEl>
