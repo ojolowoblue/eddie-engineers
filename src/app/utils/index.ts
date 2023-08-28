@@ -5,19 +5,19 @@ import Engineer3 from "@/app/assets/images/engineer-3.png";
 export const links = [
   {
     name: "Home",
-    href: "/",
+    href: "",
   },
   {
     name: "Our Service",
-    href: "/service",
+    href: "",
   },
   {
     name: "About",
-    href: "/about",
+    href: "",
   },
   {
     name: "Hallway",
-    href: "/hallway",
+    href: "",
   },
 ];
 
