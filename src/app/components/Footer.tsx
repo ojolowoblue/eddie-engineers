@@ -11,7 +11,7 @@ import { companyLinks, serviceLinks } from "../utils";
 
 export default function Footer() {
   return (
-    <footer className="relative border-t border-[#9F9F9F] pt-[116px] pb-[79px] mobile:pt-[85px]">
+    <footer className="relative border-t border-[#9F9F9F] pt-[116px] pb-[79px] mobile:pt-[85px] mx-auto max-w-[1920px]">
       <div className="flex px-[2.5%] mobile:flex-col mobile:px-[17px]">
         <Logo className="mr-[96px]" />
 

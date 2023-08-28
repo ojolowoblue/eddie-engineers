@@ -15,7 +15,7 @@ export default function ServiceCard(props: Props) {
   const { name, description, image } = props;
 
   return (
-    <div className="flex flex-col min-w-[474px] mobile:min-w-[286px] px-[24px] py-[20px] rounded-[20px] bg-grey33">
+    <div className="flex flex-col items-center min-w-[474px] flex-1 mobile:min-w-[286px] px-[24px] py-[20px] rounded-[20px] bg-grey33">
       <Image src={image} alt={name} />
 
       <div className="mt-[23px] mb-[39px] mobile:mb-[17px]">
@@ -31,7 +31,7 @@ export default function ServiceCard(props: Props) {
       <Button
         icon={<ArrowRightIcon />}
         text="Check our service"
-        className="h-[95px] mobile:h-[61px] mobile:text-[1.3rem] mobile:rounded-[15px] text-[2.3rem] font-[900] rounded-[20px] px-[37px]"
+        className="h-[95px] mobile:h-[61px] mobile:text-[1.3rem] w-full mobile:rounded-[15px] text-[2.3rem] font-[900] rounded-[20px] px-[37px]"
       />
     </div>
   );
