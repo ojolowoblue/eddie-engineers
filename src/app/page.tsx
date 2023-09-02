@@ -38,13 +38,13 @@ export default function Home() {
           <Image
             src={HeroImage}
             alt="Engineer Lady"
-            className="absolute top-0 h-full w-full z-20 tablet:hidden"
+            className="absolute object-cover top-0 h-full w-full z-20 tablet:hidden"
           />
 
           <Image
             src={HeroImageMobile}
             alt="Engineer Lady"
-            className="absolute top-0 h-full w-full hidden z-20 tablet:block"
+            className="absolute object-cover top-0 h-full w-full hidden z-20 tablet:block"
           />
 
           <div className="absolute top-0 h-full w-full bg-transparentDark z-30" />
